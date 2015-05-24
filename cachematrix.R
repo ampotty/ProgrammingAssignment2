@@ -32,11 +32,11 @@ cacheSolve <- function(x, ...) {
 
 ## Functional Tests
 ## Create a 5 rows, 5 columns matrix from normal distribution values
-mat = matrix(rnorm(1000), nrow=5, ncol=5)
+##mat = matrix(rnorm(1000), nrow=5, ncol=5)
 ## Execute the makeCacheMatrix
-m = makeCacheMatrix(mat)
-m$get()
+##m = makeCacheMatrix(mat)
+##m$get()
 ## Expect first computation
-cacheSolve(m)
+##cacheSolve(m)
 ## Expect the cached data
-cacheSolve(m)
+##cacheSolve(m)
